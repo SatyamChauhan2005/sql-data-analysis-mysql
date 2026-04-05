@@ -58,6 +58,55 @@ regions ──< customers ──< orders ──< order_items >── products >�
 
 ---
 
+## 📸 Key Business Analysis (SQL Outputs)
+
+### 1. KPI Overview (Query 01)
+
+* Total Revenue, Profit, Orders, Profit Margin
+  ![KPI](screenshots/kpi_overview.png)
+
+---
+
+### 2. Monthly Revenue Trend (Query 02)
+
+* Revenue growth over time
+  ![Monthly Trend](screenshots/monthly_trend.png)
+
+---
+
+### 3. Top Customers by Revenue (Query 04)
+
+* Top 10 customers based on revenue & profit
+  ![Top Customers](screenshots/top_customers.png)
+
+---
+
+### 4. Revenue by Product Category (Query 05)
+
+* Category-wise performance analysis
+  ![Category Analysis](screenshots/category_analysis.png)
+
+---
+
+### 5. Region-wise Revenue Performance (Query 07)
+
+* Geographic business insights
+  ![Region Analysis](screenshots/region_analysis.png)
+
+---
+
+### 6. Customer Ranking using Window Function (Query 14)
+
+* Ranking customers using RANK() & DENSE_RANK()
+  ![Customer Ranking](screenshots/customer_ranking.png)
+
+---
+
+### 7. Month-over-Month Growth (Query 15)
+
+* Revenue growth percentage using LAG()
+  ![MoM Growth](screenshots/mom_growth.png)
+
 ## 🔑 Key Business Findings
 
 | # | Finding |
