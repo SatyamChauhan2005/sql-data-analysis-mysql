@@ -1,4 +1,6 @@
-# 🛒 Retail Sales Analysis — MySQL Project
+# 📊 Advanced Employee Data Analysis using SQL (MySQL)
+
+💼 Use Case: Retail Sales Analytics & Business Intelligence
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-orange)
@@ -9,19 +11,14 @@
 End-to-end SQL analysis on a retail sales database covering **30 customers**, **50 orders**, **25 products** across **12 regions** — answering 20 real business questions using advanced MySQL concepts.
 
 ---
+## 📂 Dataset Description
+This dataset simulates a retail business including:
+- Customers
+- Orders
+- Products
+- Categories
+- Regions
 
-## 🗃️ Database Schema
-
-```
-retail_sales_db
-│
-├── regions       (12 rows)  — region_id, region_name, zone
-├── customers     (30 rows)  — customer_id, name, segment, region_id, joined_date
-├── categories    (6 rows)   — category_id, category_name
-├── products      (25 rows)  — product_id, name, category_id, unit_price, cost_price
-├── orders        (50 rows)  — order_id, customer_id, order_date, ship_date, status, payment_mode
-└── order_items   (100 rows) — item_id, order_id, product_id, quantity, discount
-```
 
 ### Entity Relationship
 
@@ -176,14 +173,13 @@ source analysis_queries.sql;
 
 ---
 
-## 🛠️ Tools Used
-
-| Tool | Purpose |
-|---|---|
-| MySQL 8.0 | Database engine |
-| MySQL Workbench | Query editor & schema viewer |
-| Excel / Power BI | Results visualization (optional) |
-
+## 🛠 Tools & Technologies
+## 🧠 Skills Demonstrated
+- Data Analysis using SQL  
+- Business Problem Solving  
+- KPI Calculation  
+- Advanced SQL (CTE, Window Functions)  
+- Data Aggregation & Transformation  
 ---
 
 ## 🤝 Connect
