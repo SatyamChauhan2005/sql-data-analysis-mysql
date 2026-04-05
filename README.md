@@ -1,4 +1,4 @@
-# 📊 Advanced Employee Data Analysis using SQL (MySQL)
+# 📊 Retail Sales Data Analysis using SQL (MySQL)
 
 💼 Use Case: Retail Sales Analytics & Business Intelligence
 
